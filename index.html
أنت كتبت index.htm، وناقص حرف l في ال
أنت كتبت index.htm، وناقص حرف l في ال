@@ -1,1 +1,76 @@
-Create website.
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>أم سلطان للأساسات والديكور</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#111;color:#fff;font-family:Arial,sans-serif}
+header{background:#000;padding:25px;text-align:center;border-bottom:2px solid #c9a44c}
+h1{color:#d8b45a;font-size:30px;margin:5px}
+header p{color:#ddd}
+nav{padding:15px;text-align:center;background:#222}
+nav a{color:#e3c36b;text-decoration:none;margin:10px}
+.hero{text-align:center;padding:65px 15px;background:linear-gradient(120deg,#151515,#443719)}
+.hero h2{color:#e2c16b;font-size:28px}
+.hero p{line-height:2}
+.btn{display:inline-block;background:#c9a44c;color:#111;padding:13px 22px;border-radius:7px;text-decoration:none;margin:8px;font-weight:bold}
+section{padding:30px 15px;text-align:center}
+h2{color:#d9b75f}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1000px;margin:auto}
+.product{background:#222;border:1px solid #80672e;border-radius:12px;padding:25px}
+.product h3{color:#e3c36b}
+.product p{line-height:1.8;color:#ddd}
+footer{background:#000;padding:25px;text-align:center;color:#d9b75f}
+</style>
+</head>
+<body>
+<header>
+<h1>أم سلطان</h1>
+<p>للأساسات والديكور</p>
+</header>
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#services">خدماتنا</a>
+<a href="#contact">اتصل بنا</a>
+</nav>
+<div class="hero" id="home">
+<h2>الجمال يبدأ من تفاصيل منزلك</h2>
+<p>نصمم وننفذ الأثاث والأعمال الخشبية بجودة وأناقة واحترافية.</p>
+<a class="btn" href="https://wa.me/249116281717">تواصل واتساب</a>
+</div>
+<section id="services">
+<h2>خدماتنا</h2>
+<div class="products">
+<div class="product">
+<h3>السراير</h3>
+<p>تصاميم سراير عصرية وبمقاسات مختلفة.</p>
+</div>
+<div class="product">
+<h3>الدواليب</h3>
+<p>دواليب ملابس بتصاميم عملية وأنيقة.</p>
+</div>
+<div class="product">
+<h3>غرف النوم</h3>
+<p>أعمال أثاث وتجهيزات غرف النوم.</p>
+</div>
+<div class="product">
+<h3>الصيانة</h3>
+<p>صيانة وإصلاح الأعمال الخشبية والأثاث.</p>
+</div>
+</div>
+</section>
+<section id="contact">
+<h2>تواصل معنا</h2>
+<p>واتساب واتصال: 0116281717</p>
+<p>الموقع: الجريف غرب - الحارة 3</p>
+<a class="btn" href="https://wa.me/249116281717">راسلنا الآن</a>
+<a class="btn" href="tel:0116281717">اتصال مباشر</a>
+</section>
+<footer>
+أم سلطان للأساسات والديكور © 2026
+</footer>
+</body>
+</html>
